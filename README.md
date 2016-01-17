@@ -7,4 +7,4 @@ No jquery necessary.
 
 Simply call the function with Your Project ID and container class name as paramenters (See index.html for usage):
 
-callTogglData('[Your Project ID]','project-info');
+<code js>callTogglData('[Your Project ID]','project-info');</code>
