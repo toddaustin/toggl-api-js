@@ -8,7 +8,9 @@ Script resides in js/reports.js. Html provided for example usage.
 
 Simply call the function with Your Project ID and container class name as paramenters (See index.html for usage):
 
-<code js>callTogglData('[Your Project ID]','project-info');</code>
+```js
+callTogglData('[Your Project ID]','project-info');
+```
 
 Output:
 
