@@ -1,4 +1,4 @@
-# toggl-api-js
+# toggl API JS
 
 A simple js script calling the toggl reporting API. Outputs a projects name and total weekly time in HH:MM:SS.
 
