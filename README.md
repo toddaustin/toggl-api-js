@@ -12,8 +12,6 @@ Simply call the function with Your Project ID and container class name as parame
 
 Output:
 
-## CES Reporting
+## My First Project
 Total time recorded this week: 10:44:07
 
-## Training Inventory
-Total time recorded this week: 05:09:28
