@@ -5,7 +5,6 @@ A simple js script calling the toggl API. Outputs a projects name and total week
 
 No jquery necessary. 
 
-Simply call the function with Your Project ID and container class name as paramenters:
+Simply call the function with Your Project ID and container class name as paramenters (See index.html for usage):
 
-// See index.html for usage.
 callTogglData('[Your Project ID]','project-info');
