@@ -24,7 +24,7 @@ function callTogglData(project, thisClass){
 	        minutes = (minutes < 10) ? "0" + minutes : minutes;
 	        seconds = (seconds < 10) ? "0" + seconds : seconds;
 
-	        dataContainer.append(data.data[0].title.project+' Total time recorded this week: ' + hours + ':' + minutes + ':' + seconds);
+	        dataContainer.append('<h3>' + data.data[0].title.project + '</h3><p>Total time recorded this week: ' + hours + ':' + minutes + ':' + seconds + '</p>');
 	    }
 	});
 }
