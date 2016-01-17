@@ -10,8 +10,8 @@ function callTogglData(project, thisClass){
  	dataContainer = $(thisClass);
     requestHeaders = { 'Authorization' : myKey };
 	$.ajax({
-	    url: 'https://toggl.com/reports/api/v2/weekly&project_ids=' + project,
-	    data: {user_agent: '[YourUserID_youremail@example.com]', workspace_id: '[Your Workspace ID]'},
+	    url: 'https://toggl.com/reports/api/v2/weekly',
+	    data: {user_agent: '[YourUserID_youremail@example.com]', workspace_id: '[Your Workspace ID]', project_ids: project},
 	    headers: requestHeaders,
 	    success: function(data){
 	    	var duration, seconds, minutes, hours;
