@@ -1,8 +1,12 @@
+/**
+ * Retrieves data from the Toggle API
+ * @param  {String} project   project id to retrieve
+ * @param  {String} thisClass class of container to hold returned data
+ */
 function callTogglData(project, thisClass){
 	var myKey, dataContainer, requestHeaders;
  	myKey = 'Basic ' + window.btoa('[Your API Key]' + ':api_token');
  	dataContainer = $(thisClass);
- 	console.log(myContainer);
     requestHeaders = { 'Authorization' : myKey };
 	$.ajax({
 	    url: 'https://toggl.com/reports/api/v2/weekly&project_ids=' + project,
