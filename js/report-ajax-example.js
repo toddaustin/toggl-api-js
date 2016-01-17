@@ -8,7 +8,7 @@ function callTogglData(project, thisClass){
 	var myKey, dataContainer, requestHeaders;
  	myKey = 'Basic ' + window.btoa('[Your API Key]' + ':api_token');
  	dataContainer = $(thisClass);
-    requestHeaders = { 'Authorization' : myKey };
+    	requestHeaders = { 'Authorization' : myKey };
 	$.ajax({
 	    url: 'https://toggl.com/reports/api/v2/weekly',
 	    data: {user_agent: '[YourUserID_youremail@example.com]', workspace_id: '[Your Workspace ID]', project_ids: project},
