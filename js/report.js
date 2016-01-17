@@ -1,6 +1,6 @@
 /**
  * Retrieves data from the Toggle API
- * @param  {String} url       url to retrieve
+ * @param  {String} project   project id to retrieve
  * @param  {String} thisClass class of container to hold returned data
  */
 function callTogglData(project, thisClass){
