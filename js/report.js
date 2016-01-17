@@ -26,7 +26,6 @@ function callTogglData(project, thisClass){
         }
     }
     myKey = 'Basic ' + window.btoa('[Your API Key]' + ':api_token');
-    requestHeaders = { 'Authorization' : myKey };
     xmlhttp.open("GET", url, true);
     xmlhttp.setRequestHeader('Authorization',myKey);
     xmlhttp.send();
