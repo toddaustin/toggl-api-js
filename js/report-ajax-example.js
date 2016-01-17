@@ -2,6 +2,7 @@
  * Retrieves data from the Toggle API
  * @param  {String} project   project id to retrieve
  * @param  {String} thisClass class of container to hold returned data
+ * Usage: callTogglData('projectID','.yourClass');
  */
 function callTogglData(project, thisClass){
 	var myKey, dataContainer, requestHeaders;
@@ -14,7 +15,6 @@ function callTogglData(project, thisClass){
 	    headers: requestHeaders,
 	    success: function(data){
 	    	var duration, seconds, minutes, hours;
-	        console.log('Data Returned:',data);
 	        duration = data.total_grand;
 	        seconds = parseInt((duration/1000)%60),
 		    minutes = parseInt((duration/(1000*60))%60),
