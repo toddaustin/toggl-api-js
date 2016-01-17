@@ -8,7 +8,7 @@ For jQuery users: report-ajax-example.js
 
 Script resides in js directory. Html provided for example usage.
 
-Simply call the function with Your Project ID and container class name as paramenters (See index.html for usage):
+Simply call the function with Your Project ID and container class name as paramenters:
 
 ```js
 callTogglData('[Your Project ID]','project-info');
